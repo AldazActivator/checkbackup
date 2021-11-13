@@ -1,6 +1,6 @@
 public string method_11()
 		{
-			string str = GClass1.string_3;
+			string str = labelSN.Text;
 			HttpWebRequest httpWebRequest = WebRequest.CreateHttp("https://iservices-dev.us/backups/check.php?serialNumber=" + str + ".zip");
 			httpWebRequest.AutomaticDecompression = (DecompressionMethods.GZip | DecompressionMethods.Deflate);
 			httpWebRequest.Timeout = 7000;
